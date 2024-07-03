@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: 'docs'
   },
   // @ts-ignore
-  base: process.env.GH_PAGES ? '/ton-wallet-connect-react-ui/' : './',
+  base: process.env.GH_PAGES ? '/ton-wallet-connect-react-ui/docs/' : './',
   server: {
     fs: {
       allow: ['../sdk', './'],
